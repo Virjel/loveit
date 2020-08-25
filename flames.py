@@ -14,9 +14,7 @@ for value in name2:
     if value not in name1:
         if value != ' ':
             my_list.append(value)
-print(f'Unmatched letters are : {my_list}')
 number = len(my_list)
-print(f'Unmatched letters counts to :{number}')
 needed = number*number
 game = ['f', 'l', 'a', 'm', 'e', 's']
 for i in range(0, needed):
